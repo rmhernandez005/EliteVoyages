@@ -6,18 +6,25 @@
   <meta name="keywords" content="agencia de viajes, viajes de lujo, experiencias exclusivas, vacaciones personalizadas">
   <meta name="author" content="John Doe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+
 <title>Elite Voyages | Tu Agencia de Viajes Preferida</title>
 </head>
+
 <!--Aqui empieza el desarrollo de la pagina-->
 
 
 <body>
 <!--Encabezado de la pagina-->
-<header class="header-Elite Voyages">
+<header class="header-Elite-Voyages">
 
     <div class="container header-inner">
-      <a href="#inicio" class="logo-elitevoyages">
-        
+      <a href="#inicio" class="logo-elite-voyages">
+        <img src="img/Logotipo Élite Voyages.png" alt="Logotipo Élite Voyages">
       </a>
 
 
@@ -26,7 +33,7 @@
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#servicios">Servicios</a></li>
           <li><a href="#aboutme">About me</a></li>
-          <li><a href="#oferta">Oferta</a></li>
+          <li><a href="#ofertas">Ofertas</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
         <button type="button" class="btn primary" onclick="openWhatsApp('Hola, quiero conocer mas sobre sus servicios y promociones.')">
@@ -39,6 +46,66 @@
     </div>
 
 </header>
+
+<!--Inicio del contenido principal de la pagina -->
+
+<main>
+    <!--HERO-->
+     <section id="inicio" class="container hero-section">
+      <div class="hero-content fade-in-up">
+        <p class="eyebrow">Viajes exclusivos | Experiencias únicas | Destinos inolvidables</p>
+        <h1 class="hero-title">Tu aventura de viaje comienza aqui</h1>
+        <p class="hero-subtitle">
+          Ofrecemos experiencias de viaje únicas y personalizadas en destinos nacionales e internacionales.
+        </p>
+        <a href="#menu" class="btn btn-coffee hero-cta">
+          Sobre nuestros servicios <i data-lucide="arrow-right" class="icon-sm"></i>
+        </a>
+      </div>
+
+
+      <div class="hero-media">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <img
+          src="img/hero.jpg"
+          alt="Imagen de fondo para la seccion de hero de Elite Voyages"
+          width="1600"
+          height="1104"
+          class="hero-image"
+        />
+      </div>
+    </section>
+</main>
+
+<!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#inicio" class="logo logo-light" aria-label="Elite Voyages, inicio">
+
+        <span class="logo-text">Elite Voyages</span>
+      </a>
+
+
+      <nav class="footer-nav" aria-label="Navegación pie de página">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+
+      <div class="social-links">
+        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+      </div>
+    </div>
+
+
+    <p class="copyright">
+      © <span id="current-year"></span> Elite Voyages. Todos los derechos reservados.
+    </p>
+  </footer>
 
 
 <h1>Élite Voyages</h1>
