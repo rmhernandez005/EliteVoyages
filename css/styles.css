@@ -343,8 +343,8 @@ img {
   flex-direction: column;
   overflow: hidden;
   border-radius: 1rem;
-  background-color: var(--olivo); /* Diferente al fondo --cream */
-  border: 1px solid var(--olivo-oscuro);  /* Delimita cada tarjeta */
+  background-color: var(--beige); /* Diferente al fondo --cream */
+  border: 1px solid var(--olivo);  /* Delimita cada tarjeta */
   box-shadow: 0 4px 12px rgba(63, 48, 42, 0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
